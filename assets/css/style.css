@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.header{
+    background-color: #1c1d21;
+    height: 50%;
+    width: 100%;
+}
+
+.header__tittle{
+    text-align: center;
+    font-size: 3rem;
+    color: #729e2e;
+}
+
+.image-border{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: darkgrey;
+}
+
+.image{
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+}
+
+
+/* STICKERS */
+
+.titulo{
+    margin-top: 20px;
+    text-align: center;
+    color: #729e2e;
+}
+
+.stickers{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.stickers__list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.stickers__list img{
+    width: 80%;
+    height: 50%;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.stickers__list--card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.stickers-input{
+    width: 100px;
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+}
+
+.stickers__button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.stickers__button--btn{
+    width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    border-color: rgb(197, 197, 197);
+    border-radius: 5px;
+}
+
+.stickers__button--btn:hover{
+    background-color: gray;
+    color: #fff;
+}
+#info{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+/* PASSWORD */
+.password{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.password h3{
+    margin-bottom: 20px;
+}
+
+.password__button{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.password__button--btn{
+    width: 200px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+    border-color: rgb(197, 197, 197);
+    border-radius: 5px;
+}
+
+.password__button--btn:hover{
+    background-color: gray;
+    color: #fff;
+}
+
+#pass-validation{
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}

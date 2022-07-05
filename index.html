@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío 2 - Condiciones</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="header">
+        <h1 class="header__tittle">Desafio 2 - Condiciones_</h1>
+    </nav>
+    <!-- PARTE 1 -- IMAGEN CON BORDE -->
+    
+    <div class="image-border">
+        <h2 class="titulo">Parte 1</h2>
+            <img id="image-border__imagenSantiago" class="image" src="assets/images/santiago.jpg" alt="santiago" onclick="userClick()" >
+    </div>
+    <!-- PARTE 2 -- STICKERS -->
+    <h2 class="titulo">Parte 2</h2>
+        <div class="stickers">
+                
+                <div class="stickers__list">
+                    <div class="stickers__list--card">
+                        <img src="assets/images/imagen1.webp" alt="">
+                        <input type="number" class="stickers-input" id="cantidad-stickers-1" min="0" max="10" placeholder="Cantidad">
+                    </div>
+                    <div class="stickers__list--card">
+                        <img src="assets/images/imagen2.png" alt="">
+                        <input type="number" class="stickers-input" id="cantidad-stickers-2" min="0" max="10" placeholder="Cantidad">
+                    </div>
+
+                    <div class="stickers__list--card">
+                        <img src="assets/images/imagen3.png" alt="">
+                        <input type="number" class="stickers-input" id="cantidad-stickers-3" min="0" max="10" placeholder="Cantidad">
+                    </div>
+                    
+                </div>
+
+        </div>  
+                    
+    <div class="stickers__button">
+        <p id="info"></p>
+        <button class="stickers__button--btn" onclick="calcularCant()">Verificar</button>
+     </div>
+                
+    <!-- PARTE 3 -- PASSWORD -->
+    <h2 class="titulo">Parte 3</h2>
+    <section class="password">
+        <h3>Ingresa el Password</h3>
+        <select name="digito1" id="digito1">
+            <option value="1" selected>1</option>
+            <option value="2" selected>2</option>
+            <option value="3" selected>3</option>
+            <option value="4" selected>4</option>
+            <option value="5" selected>5</option>
+            <option value="6" selected>6</option>
+            <option value="7" selected>7</option>
+            <option value="8" selected>8</option>
+            <option value="9" selected>9</option>
+        </select>
+        <select name="digito2" id="digito2">
+            <option value="1" selected>1</option>
+            <option value="2" selected>2</option>
+            <option value="3" selected>3</option>
+            <option value="4" selected>4</option>
+            <option value="5" selected>5</option>
+            <option value="6" selected>6</option>
+            <option value="7" selected>7</option>
+            <option value="8" selected>8</option>
+            <option value="9" selected>9</option>
+        </select>
+        <select name="digito3" id="digito3">
+            <option value="1" selected>1</option>
+            <option value="2" selected>2</option>
+            <option value="3" selected>3</option>
+            <option value="4" selected>4</option>
+            <option value="5" selected>5</option>
+            <option value="6" selected>6</option>
+            <option value="7" selected>7</option>
+            <option value="8" selected>8</option>
+            <option value="9" selected>9</option>
+        </select>
+    </section>
+    <div class="password__button">
+        <p id="pass-validation"></p>
+        <button class="password__button--btn" onclick="comprobarPaswword()">Ingresar</button>
+     </div>
+
+
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+
+</html>
